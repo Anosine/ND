@@ -1,7 +1,7 @@
-
 #include <cstdio>
 #include <fstream>
 #include <bits/stdc++.h>
+#include <iostream>
 #include <vector>
 #include <ctime>
 #include <cstdlib>
@@ -105,8 +105,10 @@ galu=0.4*ndv+0.6*Egz[i] ;
 gal.push_back(galu);
 gal2.push_back(galu1);
 }
-void doo()
+
+int main()
 {
+klaida();
 getline(inFile, pirma);
 do{
 while (inFile >> vardas>>pavarde>>n1>>n2>>n3>>n4>>n5>>e)
@@ -118,12 +120,6 @@ i++;
 }
 } while(inFile.eof()==0);
 inFile.close();
-}
-
-int main()
-{
-klaida();
-doo();
 printeris(i);
 irasymas();
 }

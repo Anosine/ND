@@ -1,4 +1,3 @@
-
 #include <cstdio>
 #include <fstream>
 #include <bits/stdc++.h>
@@ -62,7 +61,7 @@ nd.clear();
 return ndm;
 return ndv;
 }
-void printeris(int i)
+void printeris()
 {
     cout<<"Vardas        Pavarde         Galutinis (Vid.) / Galutinis (Med.)\n";
 cout<<"-----------------------------------------------------------------\n";
@@ -124,6 +123,6 @@ int main()
 {
 klaida();
 doo();
-printeris(i);
+printeris();
 irasymas();
 }

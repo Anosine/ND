@@ -4,7 +4,7 @@ Sukurta programa galinti sugeneruoti nuo 10 žmonių iki 100000 žmonų sąraš�
 
 Programos galimybės:  
 Programa gali generuoti nuo 10 žmonių iki 100000 žmonų sąrašą;  
-Jį surušiuoti;  
+Jį surušiuoti į 2 failus;  
 Taip pat rezultatus gali pateikti konsolėje, tam reiktų patvarkyt main.cpp failą (16 eilutėje pašalinti užrašų žymes "//")  
 
 Įdiegimo instrukcija:  
